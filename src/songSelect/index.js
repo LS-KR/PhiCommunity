@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			['level', '难度'],
 			['name', '名称'],
 		],
-		defaultOrder = 0;
+		defaultOrder = 2;
 
 	document.querySelector('div.settingBtn').addEventListener('click', () => {
 		location.href = '../settings/index.html';
